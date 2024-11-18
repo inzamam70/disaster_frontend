@@ -1,0 +1,49 @@
+.pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pagination-controls label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.pagination-controls input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.pagination-controls #search {
+    width: 200px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+}

@@ -1,0 +1,86 @@
+
+.container-header h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #0a1d24;
+
+}
+.container-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px; 
+    padding: 16px; 
+    margin-top: 80px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    background-size: cover;
+    position: relative;
+}
+.container-section a{
+    text-decoration: none;
+    color: black;
+
+}
+.container-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    margin: 20px;
+    padding: 16px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px; 
+    width: 300px; 
+    /* background-image: url('https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png'); */
+    background-size: cover;
+    position: relative;
+}
+
+.card-image {
+    text-align: center;
+    width: 250px; 
+    height: 200px; 
+    border-radius: 10px;
+
+
+}
+
+.card-text {
+    padding: 16px; 
+}
+
+.card-text h1,
+.card-text h3 {
+    font-size: 24px;
+    margin: 8px 0; 
+    color: rgb(0, 0, 0);
+}
+
+.card-text p {
+    margin: 0; 
+    font-size: 18px;
+    color: rgb(255, 1, 1); 
+}
+button{
+    border: none;
+}
+.info-btn{
+    background-color: #0a1d24;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}

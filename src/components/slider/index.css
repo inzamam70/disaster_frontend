@@ -1,0 +1,81 @@
+.image{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.title-content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+   
+    color: #fafafa;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 10px;
+    
+   
+   
+  
+}
+
+
+
+.title-content h3{
+    font-size: 16px;
+}
+.title-content h1{
+    font-size: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: rgb(255, 0, 0);
+}
+.title-content p{
+    font-size: 14px;
+}
+
+.title-content .border{
+    position: relative;
+    width: 100px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.title-content .border::before{
+    content: ""; 
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    background: rgb(255, 255, 255); 
+    animation: animation 5s linear infinite; 
+
+}
+@keyframes animation { 
+    0% { 
+        left: 0; 
+    } 
+
+    50% { 
+        left: 100%; 
+    } 
+
+    0% { 
+        left: 0; 
+    } 
+} 
+.title-content button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #0689f4;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}

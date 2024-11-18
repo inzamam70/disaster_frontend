@@ -1,0 +1,122 @@
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.login h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.form-body{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 90px;
+    position: relative;
+    backdrop-filter: blur(10px);
+}
+.form-content{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.form-content label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.form-content input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.form-btn:hover{
+    background-color: #0056b3;
+}
+.form-social{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.go{
+   background-color: rgb(255, 106, 0);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+.go:hover{
+    background-color: #0056b3;
+}
+.fb{
+    background-color: #3b5998;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+.fb:hover{
+    background-color: #0056b3;
+}
+
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -110px;
+    top: 180px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -110px;
+    bottom: -210px;
+}

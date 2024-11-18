@@ -1,0 +1,98 @@
+.aa-container{
+    width: 100%;
+}
+.affected-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    backdrop-filter: blur(10px);
+}
+.affected-card-content h3{
+    font-size: 20px;
+    color: green;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+.affected-card-content h1{
+    font-size: 30px;
+    color: red;
+    text-align: left;
+}
+.affected-card-content p{
+    font-size: 16px;
+    color: #081b29;
+    text-align: left;
+    margin-top: 10px;
+}
+.affected-card-content .aid-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    backdrop-filter: blur(10px);
+    
+}
+.aid-section h2{
+    font-size: 40px;
+    color: #081b29;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.aid-section-form-body{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    backdrop-filter: blur(10px);
+}
+.affected-activity-card-content{
+    padding: 20px;
+}
+.affected-activity-card-content h3{
+    font-size: 20px;
+    color: green;
+    text-align: left;
+    margin-top: 20px;
+}
+.affected-activity-card-content h1{
+    font-size: 30px;
+    color: red;
+    text-align: left;
+}
+.affected-activity-card-content p{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: normal;
+}
+.affected-activity-card-content button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #081b29;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.affected-activity-card-content button:hover{
+    background-color: #00abf0;
+    color: #081b29;
+}
